@@ -1,0 +1,11 @@
+/* LoginForm_css.module.css */
+
+
+.button {
+    background-color: aliceblue;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(87, 150, 245);
+}
