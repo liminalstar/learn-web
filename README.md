@@ -22,7 +22,7 @@
 - スタイル系のライブラリ追加
 ```sh
     # sh
-    > yarn add @mui/material @emotion/react @emotion/styled
+    > yarn add @mui/material @emotion/react @emotion/styled @mui/icons-material
 ```
 
 6. 機能追加(フォーム用)
@@ -39,4 +39,20 @@
 - app/login/page.tsx
 
 <img src="README_Images/login_page.png" alt="login page" width="600" />
+
+## ◆ 作成2 Drawer 作成
+
+関連ファイル
+- app/home/page.tsx
+- ./components/Drawer_compose.tsx
+
+Drawer機能：close -> open
+
+■ 図close
+
+<img src="README_Images/home_drawer.png" alt="home drawer" width="600">
+
+■ 図open
+
+<img src="README_Images/home_drawer_open.png" alt="home open drawer" width="600">
 
