@@ -8,6 +8,8 @@ import Custom_Drawer from "../components/Drawer_compose";
 export default function Page() {
     
     return (
-        <Custom_Drawer/>
+        <Container maxWidth="md">
+            <Custom_Drawer/>
+        </Container>
     )
 }
