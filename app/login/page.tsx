@@ -3,7 +3,7 @@
 import React from "react";
 import {Button, TextField, Box} from "@mui/material";
 import { useForm } from "react-hook-form";
-import them from "../components/LoginForm"
+//import them from "../components/LoginForm"
 
 type UserType = {
     username: string;
@@ -48,6 +48,7 @@ export default function LoginForm(){
                 <TextField 
                 id="username" 
                 label="Username" 
+                type="text"
                 variant="outlined"
                 {...register("username", { required: "ユーザー名は必須です。"})}
                 error={!!errors.username}
@@ -56,7 +57,8 @@ export default function LoginForm(){
 
                 <TextField 
                 id="password" 
-                label="Password" 
+                label="Password"
+                type="password"
                 variant="outlined"
                 {...register("password", { required: "パスワードは必須です。"})}
                 error={!!errors.password}
